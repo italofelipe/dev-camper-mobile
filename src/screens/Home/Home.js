@@ -1,5 +1,5 @@
 import React from "react";
-import {View} from "react-native";
+import { View } from "react-native";
 import Icon from "react-native-vector-icons/Octicons";
 import {
   Button,
@@ -13,9 +13,9 @@ import {
   Row,
   Text,
 } from "../../styles/globalStyles";
-import {terminalIconStyle} from "../../styles/styles";
+import { terminalIconStyle } from "../../styles/styles";
 
-const Home = ({navigation}) => {
+const Home = ({ navigation }) => {
   const handleNavigate = (screen) => {
     console.log("Pressed");
     navigation.navigate(screen);

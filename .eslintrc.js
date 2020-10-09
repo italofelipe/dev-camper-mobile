@@ -20,5 +20,17 @@ module.exports = {
       },
     ],
     "import/prefer-default-export": "off",
+    "space-in-brackets": [
+      "error",
+      "never",
+      {
+        singleValue: true,
+        objectsInArrays: true,
+        arraysInArrays: true,
+        arraysInObjects: true,
+        objectsInObjects: true,
+        propertyName: true,
+      },
+    ],
   },
 };
